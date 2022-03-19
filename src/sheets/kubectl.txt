@@ -1,0 +1,15 @@
+kubectl
+-------
+kubectl config current-context
+
+kubectl get nodes
+
+kubectl get pods
+kubectl get pods -l app=that
+
+kubectl describe pod <pod-name>
+kubectl logs <pod-name>
+kubectl exec -it <pod-name> -- /bin/sh
+
+kubectl rollout restart deployment/that
+kubectl scale deployment/that --replicas=2

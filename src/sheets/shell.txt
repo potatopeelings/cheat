@@ -1,0 +1,15 @@
+shell
+-----
+exit vi without saving = Esc :q! Enter
+save and exit vi = Esc :wq Enter
+
+ctrl + w = delete word left
+ctrl + k = delete everything right
+ctrl + u = delete everything left
+
+clear = clear screen
+
+ls = list files in current directory
+
+grep "that" = lines with that
+grep -v "that" = lines without that

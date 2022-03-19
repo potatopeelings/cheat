@@ -1,0 +1,5 @@
+sample
+------
+cheat -a sample
+cheat -e eggs
+cheat -l
