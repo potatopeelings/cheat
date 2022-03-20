@@ -126,7 +126,7 @@ function _cheat_initialize() {
 
     cheat_directory=${BASH_SOURCE%/*}
     sheets_directory="${cheat_directory}/sheets"
-    working_directory="${cheat_directory}/working"
+    working_directory="${cheat_directory}/../working"
     setings_temporary_file="${working_directory}/settings.tmp"
 
     if [[ "${with}" == "withSettings" ]]; then
