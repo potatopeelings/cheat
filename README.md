@@ -15,7 +15,7 @@ sudo apt-get install jq
 
 # download the repository
 sudo apt-get install git
-git clone --depth 1 https://github.com/potatopeelings/cheat ~/usr/local/scripts/potatopeelings-cheat
+git clone --depth 1 -c core.autocrlf=false https://github.com/potatopeelings/cheat ~/usr/local/scripts/potatopeelings-cheat
 
 # add to ~/.bashrc and reload
 echo 'alias cheat='\''bash ~/usr/local/scripts/potatopeelings-cheat/src/cheat.sh'\''' >> ~/.bashrc
