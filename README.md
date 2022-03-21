@@ -52,7 +52,7 @@ cheat -a eggs
 
 For the full list of commands, run `cheat -h`
 
-Override defaults by setting the followingn environment variables in `~/bashrc`
+Override defaults by setting the followingn environment variables in `~/.bashrc`
 
 | Variable           | Default       | Description |
 | :----------------- | :-----------: | ----------- |
